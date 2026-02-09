@@ -1,2 +1,58 @@
+.navbar {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
+.logo .directions .signin-signup {
+    display: inline-block;
+    vertical-align: middle;
+}
 
+.logo {
+    width: 20%;
+    position: relative;
+}
+
+.directions {
+    width: 100%;
+    text-align: center;
+    color: #2F281E;
+}
+
+.signin-signup  {
+    width: 90%;
+    text-align: right;
+}
+
+.directions ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.directions li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.signin {
+    background: transparent;
+    border: 2px solid #BCD0E5;
+    color: #173A56;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.signup {
+    background-color: #FF9900;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}

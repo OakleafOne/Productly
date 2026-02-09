@@ -177,3 +177,54 @@
 }
 
 /* -----------------------------------FÖRSTA DELEN---------------------------------------------------- */
+
+.features-section {
+    padding: 100px 5%;
+    text-align: center;
+}
+
+.features-header {
+    font-size: 36px;
+    color: #2F281E;
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    line-height: 1.4;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.feature-card {
+    flex: 0 1 240px;
+    text-align: left;
+}
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.purple {
+    background-color: #7752BE;
+}
+
+.yellow {
+    background-color: #FAB005;
+}
+
+.red {
+    background-color: #F03E3D;
+}
+
+.blue {
+    background-color: #4DADF7;
+}

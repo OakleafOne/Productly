@@ -263,3 +263,59 @@
 .features-signup:hover {
     background-color: #9b5d00;
 }
+/*-------------------------------ANDRA DELEN--------------------------*/
+
+.info-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 100px 5%;
+}
+
+.info-header {
+    flex: 0 1 500px
+}
+
+.overline {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2F281E;
+    margin-bottom: 10px;
+}
+
+.info-header h2 {
+    font-size: 32px;
+    color: #2F281E;
+    margin-bottom: 30px;
+}
+
+.main-point {
+    font-size: 16px;
+    color: #544837;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+.info {
+    margin-bottom: 30px;
+}
+
+.info h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2F281E;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 16px;
+    color:#544837;
+    line-height: 1.5;
+}
+
+.info-img {
+    flex: 0 1 500px;
+    width: 100%;
+    height: auto;
+}

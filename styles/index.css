@@ -198,7 +198,7 @@
     margin-bottom: 60px;
 }
 
-.feature-card {
+.features-card {
     flex: 0 1 240px;
     text-align: left;
 }
@@ -227,4 +227,39 @@
 
 .blue {
     background-color: #4DADF7;
+}
+
+.features-card h3 {
+    font-size: 20px;
+    color: #2F281E;
+    margin-bottom: 20px;
+}
+
+.features-card p {
+    font-size: 16px;
+    color: #544837;
+    line-height: 1.6;
+}
+
+.features-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.features-signup {
+    justify-content: center;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.features-signup:hover {
+    background-color: #9b5d00;
 }

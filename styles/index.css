@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*----------NAVBAR-----------*/
+
 .navbar {
     width: 100%;
     padding: 20px 2%;
@@ -388,7 +390,71 @@ h2 {
   color: #444;
 }
 
-/*------------------------------FOOTER BELOW-------------------*/
+/*---------------------------FJÄRDE DELEN----------------------*/
+
+.marketers-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.content {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.label {
+  font-weight: 600;
+  color: #444;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 10px 0 20px;
+}
+
+.intro {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.feature-box {
+  margin-bottom: 25px;
+}
+
+.feature-box h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.feature-box p {
+  color: #555;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.image-wrapper {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.marketer-img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  transform: perspective(1000px) rotateY(-5deg);
+  transition: transform 0.4s ease;
+}
+
+/*---------------------------FOOTER BELOW----------------------*/
 
 .footer {
     padding: 80px 10%;
